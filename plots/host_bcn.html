@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ba353832-86c8-4ee9-8178-4fc490965ae2" data-root-id="p1477" style="display: contents;"></div>
+  
+    <script type="application/json" id="eaad7b1d-fb61-4d1c-a4ce-4ecc5b20e6c7">
+      {"483d3dd5-7d23-403b-9c3d-19c861722e83":{"version":"3.6.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1477","attributes":{"width":900,"height":500,"x_range":{"type":"object","name":"FactorRange","id":"p1487","attributes":{"factors":["1","2","3","4","5","6","7","8","9","10","11+"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1479","attributes":{"start":0}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1488"},"y_scale":{"type":"object","name":"LinearScale","id":"p1489"},"title":{"type":"object","name":"Title","id":"p1480","attributes":{"text":"Listings per Host by Room Type"}},"outline_line_color":null,"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1506","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1474","attributes":{"selected":{"type":"object","name":"Selection","id":"p1475","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1476"},"data":{"type":"map","entries":[["Entire home/apt",[1611,350,164,77,57,50,32,26,22,24,156]],["Private room",[859,302,124,70,33,40,16,12,6,6,52]],["Hotel room",[0,4,4,2,1,3,4,0,1,0,1]],["Shared room",[1,2,3,5,3,0,2,1,0,0,1]],["listing_bin",["1","2","3","4","5","6","7","8","9","10","11+"]]]}}},"view":{"type":"object","name":"CDSView","id":"p1507","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1508"}}},"glyph":{"type":"object","name":"VBar","id":"p1503","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Entire home/apt"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.7},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1504","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Entire home/apt"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1505","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Entire home/apt"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1517","attributes":{"data_source":{"id":"p1474"},"view":{"type":"object","name":"CDSView","id":"p1518","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1519"}}},"glyph":{"type":"object","name":"VBar","id":"p1514","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Private room"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.7},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1515","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Private room"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1516","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Private room"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1527","attributes":{"data_source":{"id":"p1474"},"view":{"type":"object","name":"CDSView","id":"p1528","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1529"}}},"glyph":{"type":"object","name":"VBar","id":"p1524","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Hotel room"},"line_color":{"type":"value","value":"#2ca02c"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#2ca02c"},"fill_alpha":{"type":"value","value":0.7},"hatch_color":{"type":"value","value":"#2ca02c"},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1525","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Hotel room"},"line_color":{"type":"value","value":"#2ca02c"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#2ca02c"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#2ca02c"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1526","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Hotel room"},"line_color":{"type":"value","value":"#2ca02c"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#2ca02c"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#2ca02c"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1537","attributes":{"data_source":{"id":"p1474"},"view":{"type":"object","name":"CDSView","id":"p1538","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1539"}}},"glyph":{"type":"object","name":"VBar","id":"p1534","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Shared room"},"line_color":{"type":"value","value":"#d62728"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#d62728"},"fill_alpha":{"type":"value","value":0.7},"hatch_color":{"type":"value","value":"#d62728"},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1535","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Shared room"},"line_color":{"type":"value","value":"#d62728"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#d62728"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#d62728"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1536","attributes":{"x":{"type":"field","field":"listing_bin"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Shared room"},"line_color":{"type":"value","value":"#d62728"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#d62728"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#d62728"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1486"},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1495","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1496","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1497"},"axis_label":"Number of Hosts","major_label_policy":{"type":"object","name":"AllLabels","id":"p1498"},"minor_tick_line_color":null}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1490","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1491"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1492"},"axis_label":"Number of Listings per Host","major_label_policy":{"type":"object","name":"AllLabels","id":"p1493"},"minor_tick_line_color":null}}],"center":[{"type":"object","name":"Grid","id":"p1494","attributes":{"axis":{"id":"p1490"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1499","attributes":{"dimension":1,"axis":{"id":"p1495"}}},{"type":"object","name":"Legend","id":"p1509","attributes":{"location":"right","click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p1510","attributes":{"label":{"type":"value","value":"Entire home/apt"},"renderers":[{"id":"p1506"}]}},{"type":"object","name":"LegendItem","id":"p1520","attributes":{"label":{"type":"value","value":"Private room"},"renderers":[{"id":"p1517"}]}},{"type":"object","name":"LegendItem","id":"p1530","attributes":{"label":{"type":"value","value":"Hotel room"},"renderers":[{"id":"p1527"}]}},{"type":"object","name":"LegendItem","id":"p1540","attributes":{"label":{"type":"value","value":"Shared room"},"renderers":[{"id":"p1537"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('eaad7b1d-fb61-4d1c-a4ce-4ecc5b20e6c7').textContent;
+              const render_items = [{"docid":"483d3dd5-7d23-403b-9c3d-19c861722e83","roots":{"p1477":"ba353832-86c8-4ee9-8178-4fc490965ae2"},"root_ids":["p1477"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

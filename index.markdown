@@ -30,7 +30,7 @@ To better understand where these unregistered apartments are located, we visuali
 
 <figure style="text-align: center;">
   <iframe src="/plots/bcn_map.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+  <figcaption style="margin-top: 8px; margin-bottom: 20px; font-style: italic; color: #555;">
     Figure 1: Interactive map showing licensed and unlicensed Airbnb listings in Barcelona.
   </figcaption>
 </figure>
@@ -38,7 +38,7 @@ To better understand where these unregistered apartments are located, we visuali
 
 <figure style="text-align: center;">
   <iframe src="/plots/mad_map.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+  <figcaption style="margin-top: 8px; margin-bottom: 20px;font-style: italic; color: #555;">
     Figure 2: Interactive map showing licensed and unlicensed Airbnb listings in Madrid.
   </figcaption>
 </figure>
@@ -46,7 +46,7 @@ To better understand where these unregistered apartments are located, we visuali
 
 <figure style="text-align: center;">
   <iframe src="/plots/mall_map.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+  <figcaption style="margin-top: 8px; margin-bottom: 10px; margin-bottom: 20px; font-style: italic; color: #555;">
     Figure 3: Interactive map showing licensed and unlicensed Airbnb listings in Mallorca.
   </figcaption>
 </figure>
@@ -63,11 +63,11 @@ With the sharp rise in short-term rentals, many locals worry that platforms like
   <div style="transform: scale(0.8); transform-origin: top center;">
     <iframe 
       src="/plots/prices_graph.html" 
-      style="width: 900px; height: 900px; border: none;">
+      style="width: 900px; height: 500px; border: none;">
     </iframe>
   </div>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
-    Figure 4: Interactive map showing the evolution of rental prices (€/$m²$) and Airbnb listings in Barcelona, Madrid and Mallorca
+  <figcaption style="margin-top: -100px; margin-bottom: 10px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
+    Figure 4: Interactive plot showing the evolution of rental prices (€/$m²$) and Airbnb listings in Barcelona, Madrid and Mallorca
   </figcaption>
 </figure>
 
@@ -86,23 +86,38 @@ This has important implications when interpreting the platform’s local impact,
 
 Additionally, the dominance of entire home/apartment listings across all host categories suggests that Airbnb is often used not just to share space, but to operate full rental units, reinforcing its role as a business model in many cases.
 
-<figure style="text-align: center;">
-  <iframe src="/plots/distribution_host_bcn.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 5: Interactive map showing the distribution of hosts and room types in Barcelona
+<figure style="display: flex; flex-direction: column; align-items: center;">
+  <div style="transform: scale(0.8); transform-origin: top center;">
+    <iframe 
+      src="/plots/host_bcn.html" 
+      style="width: 900px; height: 500px; border: none;">
+    </iframe>
+  </div>
+  <figcaption style="margin-top: -100px; margin-bottom: 20px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
+    Figure 5: Interactive plot showing the distribution of hosts and room types in Barcelona
   </figcaption>
 </figure>
 
-<figure style="text-align: center;">
-  <iframe src="/plots/distribution_host_mad.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 5: Interactive map showing the distribution of hosts and room types in Madrid
+<figure style="display: flex; flex-direction: column; align-items: center;">
+  <div style="transform: scale(0.8); transform-origin: top center;">
+    <iframe 
+      src="/plots/host_mad.html" 
+      style="width: 900px; height: 500px; border: none;">
+    </iframe>
+  </div>
+  <figcaption style="margin-top: -100px; margin-bottom: 20px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
+    Figure 6: Interactive plot showing the distribution of hosts and room types in Madrid
   </figcaption>
 </figure>
 
-<figure style="text-align: center;">
-  <iframe src="/plots/distribution_host_malla.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 5: Interactive map showing the distribution of hosts and room types in Mallorca
+<figure style="display: flex; flex-direction: column; align-items: center;">
+  <div style="transform: scale(0.8); transform-origin: top center;">
+    <iframe 
+      src="/plots/host_mall.html" 
+      style="width: 900px; height: 500px; border: none;">
+    </iframe>
+  </div>
+  <figcaption style="margin-top: -100px; margin-bottom: 20px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
+    Figure 7: Interactive plot showing the distribution of hosts and room types in Mallorca
   </figcaption>
 </figure>
