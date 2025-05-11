@@ -28,11 +28,43 @@ To get a sense of how many tourist apartments might be flying under the radar, w
 
 To better understand where these unregistered apartments are located, we visualized the Airbnb data on interactive maps for each city. <span style="color:green">**Green**</span> dots represent listings that matched an official license, while <span style="color:red">**red**</span> dots show those without one. Although the maps are based only on the Airbnb data, since it includes the highest number of entries, they still offer a clear picture of how widespread the issue might be.
 
+<figure style="text-align: center;">
+  <iframe src="/plots/bcn_map.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 1: Interactive map showing licensed and unlicensed Airbnb listings in Barcelona.
+  </figcaption>
+</figure>
+
+
+<figure style="text-align: center;">
+  <iframe src="/plots/mad_map.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 2: Interactive map showing licensed and unlicensed Airbnb listings in Madrid.
+  </figcaption>
+</figure>
+
+
+<figure style="text-align: center;">
+  <iframe src="/plots/mall_map.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 3: Interactive map showing licensed and unlicensed Airbnb listings in Mallorca.
+  </figcaption>
+</figure>
+
+
+
 In Barcelona and Mallorca, around 75% of Airbnb listings are licensed, reflecting strict local regulations and active enforcement. For example, in Mallorca, the local government is actively combating illegal rentals, and in Barcelona, the city has introduced laws to restrict tourist apartments by 2029. Moreover, in Barcelona the government has created a webpage to help detect unlicensed tourist accommodations. You can visit the page [here](https://meet.barcelona.cat/habitatgesturistics/es). In contrast, only about 15% of listings in Madrid are licensed. This discrepancy likely stems from weaker enforcement, as Madrid has only recently introduced stricter measures, such as suspending new license applications and reinforcing inspection efforts. The absence of similar comprehensive controls in Madrid has led to many unlicensed apartments continuing to operate [[1]](https://www.atlanticohoy.com/politica/regulacion-viviendas-turisticas-diferencias-entre-comunidades-autonomas_1533956_102.html).
 
 # Have rental prices been affected?
 
 With the sharp rise in short-term rentals, many locals worry that platforms like Airbnb are driving up housing costs. To explore this, we looked at how the price per square meter has changed over time in relation to the number of active Airbnb listings in each city. By comparing trends across Barcelona, Madrid, and Mallorca, we aim to understand whether there’s a visible connection between the growth of tourist apartments and the increase in rental prices.
+
+<figure style="text-align: center;">
+  <iframe src="/plots/prices_graph.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 4: Interactive map showing the evolution of rental prices and Airbnb listings in Barcelona, Madrid and Mallorca
+  </figcaption>
+</figure>
 
 # Can we call this a business?
 
@@ -44,6 +76,25 @@ This finding suggests that a significant portion of Airbnb activity is driven by
 
 This has important implications when interpreting the platform’s local impact, particularly in urban areas where housing availability and affordability are pressing issues. It may also be relevant when considering regulation and licensing practices, as the platform’s user base may not align with the originally intended peer-to-peer nature of home sharing.
 
-
 Additionally, the dominance of entire home/apartment listings across all host categories suggests that Airbnb is often used not just to share space, but to operate full rental units, reinforcing its role as a business model in many cases.
 
+<figure style="text-align: center;">
+  <iframe src="/plots/distribution_host_bcn.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 5: Interactive map showing the distribution of hosts and room types in Barcelona
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <iframe src="/plots/distribution_host_mad.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 5: Interactive map showing the distribution of hosts and room types in Madrid
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <iframe src="/plots/distribution_host_malla.html" width="100%" height="600px" frameborder="0"></iframe>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Figure 5: Interactive map showing the distribution of hosts and room types in Mallorca
+  </figcaption>
+</figure>
