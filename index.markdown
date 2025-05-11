@@ -59,12 +59,20 @@ In Barcelona and Mallorca, around 75% of Airbnb listings are licensed, reflectin
 
 With the sharp rise in short-term rentals, many locals worry that platforms like Airbnb are driving up housing costs. To explore this, we looked at how the price per square meter has changed over time in relation to the number of active Airbnb listings in each city. By comparing trends across Barcelona, Madrid, and Mallorca, we aim to understand whether there’s a visible connection between the growth of tourist apartments and the increase in rental prices.
 
-<figure style="text-align: center;">
-  <iframe src="/plots/prices_graph.html" width="100%" height="600px" frameborder="0"></iframe>
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 4: Interactive map showing the evolution of rental prices and Airbnb listings in Barcelona, Madrid and Mallorca
+<figure style="display: flex; flex-direction: column; align-items: center;">
+  <div style="transform: scale(0.8); transform-origin: top center;">
+    <iframe 
+      src="/plots/prices_graph.html" 
+      style="width: 900px; height: 900px; border: none;">
+    </iframe>
+  </div>
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555; text-align: center; max-width: 900px;">
+    Figure 4: Interactive map showing the evolution of rental prices (€/$m²$) and Airbnb listings in Barcelona, Madrid and Mallorca
   </figcaption>
 </figure>
+
+
+
 
 # Can we call this a business?
 
