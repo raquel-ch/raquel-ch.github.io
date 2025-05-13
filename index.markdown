@@ -144,3 +144,7 @@ Spain’s tourism boom has brought economic growth, but also growing tension aro
 We uncover a significant number of unlicensed rentals, especially in Madrid, and show that these listings are spread throughout the cities, not just in tourist hotspots. At the same time, we observe a strong rise in both housing prices and Airbnb activity since 2022, supported by research linking short-term rentals to increased rents, particularly in areas with many listings. The data also reveals that many Airbnb hosts manage multiple properties, suggesting the platform is often used for business purposes rather than casual home-sharing.
 
 Together, these findings show that platforms like Airbnb are not just changing how people travel, they’re also affecting who can afford to live in cities, and how urban spaces are used. As Spain continues to debate housing policy and tourism regulation, **this analysis helps clarify what’s really at stake:** not just housing availability, but **the very identity of our cities.**
+
+
+---- 
+To acces the repository for this web click [here](https://github.com/raquel-ch/raquel-ch.github.io). The explainer notebook together with the data can be found in the .zip file Proj Assignment B.
