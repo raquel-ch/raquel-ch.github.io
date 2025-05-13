@@ -146,5 +146,10 @@ We uncover a significant number of unlicensed rentals, especially in Madrid, and
 Together, these findings show that platforms like Airbnb are not just changing how people travel, they’re also affecting who can afford to live in cities, and how urban spaces are used. As Spain continues to debate housing policy and tourism regulation, **this analysis helps clarify what’s really at stake:** not just housing availability, but **the very identity of our cities.**
 
 
----- 
+
+
+
+
+
+
 To acces the repository for this web click [here](https://github.com/raquel-ch/raquel-ch.github.io). The explainer notebook together with the data can be found in the .zip file Proj Assignment B.
